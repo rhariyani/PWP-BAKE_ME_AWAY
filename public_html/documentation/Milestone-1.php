@@ -12,9 +12,9 @@
 <div style="font-size: large">
 	<h2>Purpose, Audience & Goal</h2>
 	<ul>
-		<li><strong>Purpose: </strong>This Project will provide the residents of Ahmedabad city with fresh-baked artisan breads, variety of chocolates,cakes and cookies on a daily basis.
-		<li><strong>Audience:</strong> This website is designed with a BakeryLover audience in mind.<br>	Target audience to include: City travelllers,Local Residence and EventManaging Companies. </li>
-		<li><strong>Goal:</strong>The goal of this site is user to initiate contact with business in regards place order for bakery items
+		<li><strong>Purpose: </strong>This Project will provide the residents of Ahmedabad city with fresh-baked artisan breads, variety of chocolates, cakes and cookies on a daily basis.
+		<li><strong>Audience:</strong> This website is designed with a BakeryLover audience in mind.<br>	Target audience to include: City travellers, Local Residents and EventManaging Companies. </li>
+		<li><strong>Goal:</strong>The goal of this site is for the user to initiate contact with business to place an order for bakery items
 			 and to showcase my work using different digital source.
 		</li>
 	</ul>
@@ -22,17 +22,17 @@
 
 		<div style="font-size: large">
 			<h2>Persona</h2>
-<img width="500" src="agile-event-manager.jpg" alt="Image of manager"/>
+<img width="500" src="agile-event-manager.jpg">
 			</div>
 			<div>
 
 				<p><strong>Name</strong> Radhika Patel  </p>
 				<p><strong>Age: </strong>27</p>
 				<p><strong>Profession: </strong>Event Manager</p>
-				<p><strong>	Technology:</strong> All laptop,data connection,ipads,Mac book and Mobiles.</p>
-				<p><strong>Attitude and Behaviour:</strong>She have busy work schedule as event manager.<br>
-					She do not want to spent more than 5-8 min to place order.<br>
-					She is not willing to explain procedure of quality ,packing and delivery again and again. <br>
+				<p><strong>	Technology:</strong> All laptop, data connection, ipads, Mac book and Mobiles.</p>
+				<p><strong>Attitude and Behaviour:</strong>She is extremely busy at work as an event manager.<br>
+					She does not want to spent more than 5-8 min to place order.<br>
+					She does not want to repeat same set of instructions like quality, packing and delivery again and again. <br>
 				<strong>Frustrations and Needs:</strong> She is looking for better payment flexibility for her orders.<br>
 				She wants to set contract with one place which serve quality food and provide service on time on easy click.<br>
 				She also needs fastest delivery within 24hours of order placed.
