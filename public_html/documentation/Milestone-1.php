@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8">
 		<title>Personal Project</title>
 	</head>
+
 	<body>
 		<h1>Personal Project</h1>
 		<h2>Bake-Me- Away</h2>
@@ -16,8 +18,8 @@
 			 and to showcase my work using different digital source.
 		</li>
 	</ul>
-
 </div>
+
 		<div style="font-size: large">
 			<h2>Persona</h2>
 <img width="500" src="agile-event-manager.jpg" alt="Image of manager"/>
