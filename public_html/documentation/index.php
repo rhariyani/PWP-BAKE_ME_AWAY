@@ -5,7 +5,6 @@
 		<meta charset="UTF-8">
 		<title>Personal Project</title>
 	</head>
-
 	<body style="font-size: large">
 		<h2>Welcome</h2>
 		<a href="milestone-1.php" style="color: darkolivegreen ">MileStone1</a><br>
