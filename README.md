@@ -15,3 +15,18 @@ This Personal website for Cake Shop will be used for marketting and advertistmen
 Overall, this is good work.  You have a very solid base here for a good PWP.  Although there are technical gotchas that are not perfect about your site, the overall direction and goals are very clear.  You will have to dial back your hopes for the site, as it simply isn't feasible to create a full e-commerce site for this project in the time you're given.  Think about how you can reduce the scope for Milestone 2a and forward.  Instead of full lists of products, consider featuring 1-3 of the most popular products with content, with the idea of using this site to drive people to in-person sales.
 
 With early submission, this grades at a Tier 3.  
+
+
+## Milestone 2a Feedback
+
+Good work. Your content strategy is thought out and concise. However, there is a lot going on on the site and it can come off as a little busy with the way your layout is set up. One suggestion would be to clean up the layout so that it becomes a little more simplified so that there isn't so much clutter in various areas of your site. One last thing to note is that there should be no inline CSS styling. If you're using CSS inside your HTML page, please revise it so that your CSS stylesheet contains all the properties needed for the styling of your site
+
+Here are a few recommendations:
+Google Fonts for custom typography - it has ~1000 fonts and is easy to integrate.
+FontAwesome is a good quality free library for including iconography.
+FancyBox for an interactive gallery if you feel the need for something more than a standard slide show from Bootstrap
+
+We'll be building PWP in a file named index.php inside of /public_html. Please note that no frontend-facing site files should live outside of the /public_html directory. Remember use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now!
+
+Your Milestone 2a passes at a Tier III
+
