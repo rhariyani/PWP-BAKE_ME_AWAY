@@ -3,30 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+	<script>
+		function basketballImg(){
+			picLocation1('img/bbImage1.png');
+			picLocation2('img/bbImage2.png');
+			picLocation3('img/bbImage3.png');
+		}
+
+		function footballImg(){
+			picLocation1('img/fbImage1.png');
+			picLocation2('img/fbImage2.png');
+			picLocation3('img/fbImage3.png');
+		}
+
+		function hockeyImg(){
+			picLocation1('img/hyImage1.png');
+			picLocation2('img/hyImage2.png');
+			picLocation3('img/hyImage3.png');
+		}
+	</script>
+
 </head>
 <body>
-<<div class="row content">
-	<div class="col-lg-4">
-		<div class="media">
-			<div class="media-body" style="margin-left:30px; width: max-content" >
-				<h6 class="mt-0 font-weight-bold">Terms & Concerns</h6>
-				<p><small>Please read this page before contacting me for an order. Thank you!
-					Once you have contacted me, I will respond within 24-48 hours.
-
-					DETAILS: Please include the date you would like to receive your order, what you would like to order, and quantity (if applicable).
-					Think about flavors, frostings, fillings, toppings, decoration, theme, and any special requests or food allergies.
-					If you aren't sure of these details, no worries-- we'll figure them out together.
-
-					DELIVERY: As of now I am only delivering locally, in Ahmedabad.
-					Orders can be delivered to a address, or picked up.
-
-					PAYMENTS: Payments under Rs150 will be collected upon delivery or pick-up.
-					Payments over Rs1000 require a 50% non-refundable deposit at least a week in advance, to cover the cost of ingredients and materials in the case of a cancellation. The remainder of the total can be paid at the time of delivery or pick-up, or  the total amount can be paid for in advance.
-
-					CAKES: Orders should be made at least two weeks in advance, and two months in advance for Wedding Cakes. Some exceptions can be mad
-				</small></p>
-			</div>
+<div class="container">
+	<div class="row center-block" style="margin:20px auto;">
+			<button id="btnBasketball" class="btn btn-primary" onclick="basketballImg()">Basketball</button>
+			<button id="btnFootball" class="btn btn-primary" onclick="footballImg()">Football</button>
+			<button id="btnHockey" class="btn btn-primary" onclick="hockeyImg()">Hockey</button>
 		</div>
 	</div>
+
+
+<div class="col-md-4">
+		<img id="img1" src="bake-me-away-ambawadi-ahmedabad-bakeries-kr8k5mjoha.jpg" class="img-rounded" alt="">
+		<input type="button" onclick="pic1()"/>
 </div>
+<div class="col-md-4">
+	<center>
+		<img id="img2" src="main%20logo.jpg" class="img-rounded" alt="">
+		<input type="button" onclick="pic2()"/>
+	</center>
 </div>
+<div class="col-md-4">
+	<center>
+		<img id="img3" src="" class="img-rounded" alt="">
+		<input type="button" onclick="pic3()"/>
+	</center>
+</div>
+</body>
+</html>
