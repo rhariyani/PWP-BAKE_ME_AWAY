@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bake Me Away </title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<!-- jQuery Form, Additional Methods, Validate-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Your JavaScript Form Validator -->
+	<script src="js/form-validate.js"></script>
+	<!-- Google reCAPTCHA -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body>
+<div class="text-center mt-1 pt-1 ml-1 pl-1 mr-2 pr-2" id="balloon">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" id="fball" alt="balloons">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" id="sball" alt="balloons">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" id="tball" alt="balloon3">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" id="forball" alt="balloon4">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" id="fivebal" alt="balloons5">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" id="sixbal" alt="balloons6">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" alt="balloons7">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" alt="balloons8">
+<img class="vert-move" src="images/backgorund/balloons%20(1).png" alt="balloons9">
+</div>
+
+<!-- header portion  -->
+<div class="container text-center mt-4 mb-2" id="top-section">
+	<img id="logo" class="img-fluid rounded-circle mt-2 pt-1 mb-2" src="images/main%20logo.jpg" width="225" alt="headerImg">
+		<nav class="navbar-expand-xl mr-4 pr-4 text-left">
+			<button id="nav1" class="navbar-toggler ml-0 pr-5 mr-5 mt-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				  Menu</button>
+			<div class="collapse navbar-collapse mt-3 ml-0 mr-5 pr-5" id="navbarTogglerDemo01">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="navbar-brand mt-2 ml-5 mr-5 pr-5" href="#top-section">
+				<img id="hamburger" class="d-inline-block align-top rounded-circle" src="images/main%20logo.jpg" alt="btnImg">Bake-Me-Away</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-item nav-link active mt-2 ml-5 pl-4 pl-4 mr-5 pr-5" href="#about">AboutUS</a></li>
+					<li class="nav-item">
+						<a class="nav-item nav-link mt-2 ml-5 pl-5 mr-5 pr-5 " href="#price">Collections</a></li>
+					<li class="nav-item">
+						<a class="nav-item nav-link mt-2 ml-5 pl-4 mr-5 pr-5 " href="#contact">ContactUS</a></li>
+				</ul>
+			</div>
+		</nav>
+			<div class="wave mt-2 ml-0 pl-0 mr-0 pr-0" style=" width:100%; height: 150px; overflow: hidden;" >
+				<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+					<path d="M-7.67,75.09 C114.22,201.41 271.49,-49.99 504.74,47.46 L500.00,0.00 L0.00,0.00 Z" style="stroke: white; fill: palevioletred;">
+			</path>
+				</svg>
+			</div>
+	<!--homepage -->
+
+<div class="container min-vh-100 my-4 mb-3" id="home" >
+	<!--Carousel Wrapper-->
+	<div id="carousel-example-1z" class="carousel slide carousel-fade mt-5 pl-2 pr-2 ml-4 mr-5 mb-5 pb-5" data-ride="carousel">
+		<div class="carousel-caption text-center pt-2 mt-2 mb-5" id="car-text" >
+			<h4>Welcome to Bake-Me-Away</h4>
+			<p>"At Bake Me Away we serve finest quality bakery & confectionery like cakes for all occasions, brownies , pudding,
+				desserts that too egg free."</p>
+		<ol class="carousel-indicators text-center mt-3 pt-2 mb-2 ml-2 mr-2 pl-1 pr-2">
+			<li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-1z" data-slide-to="1"></li>
+			<li data-target="#carousel-example-1z" data-slide-to="2"></li>
+			<li data-target="#carousel-example-1z" data-slide-to="3"></li>
+			<li data-target="#carousel-example-1z" data-slide-to="4"></li>
+			<li data-target="#carousel-example-1z" data-slide-to="5"></li>
+		</ol>
+		</div>
+		<div class="carousel-inner ml-2 pt-3" role="listbox">
+			<div class="carousel-item active">
+				<img class="img-fluid d-block w-100 " src="images/more/cheesecake4.jpg" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid d-block w-100" src="https://static.wixstatic.com/media/8e539e_5bf474d2ddb84cf0aa6789d059c75dc4~mv2_d_1836_2636_s_2.jpg/v1/fill/w_654,h_424,al_c,q_80,usm_0.66_1.00_0.01/8e539e_5bf474d2ddb84cf0aa6789d059c75dc4~mv2_d_1836_2636_s_2.webp" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid d-block w-100" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ni2wvhxiavajvzpwt1jl" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid d-block w-100" src="images/more/gift/gift3.jpg" alt="fourth slide">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid d-block w-100" src="https://honestandtruly.com/wp-content/uploads/2015/08/Some-dairy-free-chocolate-chip-muffins-ready-to-eat.jpg" alt="fifth slide">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid d-block w-100" src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/38936118_416017738920539_4749055213040566272_o.jpg?_nc_cat=109&_nc_oc=AQkiNFgqv7wYRagE_N7_BNsZUgo0AYEYDvSI59ZXqHn-HYAXjSCSPv1etG4024V5eVE&_nc_ht=scontent-dfw5-2.xx&oh=2df04da59040cd774ec402bb97295333&oe=5E0FE077" alt="sixth slide">
+			</div>
+			<div class="carousel-item">
+				<img class="img-fluid d-block w-100" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366,h_240,c_fill/rq9dmc3c0wcnl04vxjvt" alt="sixth slide">
+			</div>
+
+		<a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+	</div>
+	</div>
+<div>
+</div>
+</div>
+
+
+
+<!--About US-->
+<div class="container mt-5 mb-2" id="about">
+	<div class="row min-vh-100">
+	<div class="media mt-5 ml-2 col-lg-3" >
+	<span class="mt-5 mb-3 border border-white">
+		<img class="text-center mt-0 mb-1 pt-0 img-fluid" src="images/shop1.jpg" alt="about us"></span>
+	</div>
+	<div class="col-lg-9 ml-3 mt-4 mb-2 media-body">
+		<h3 class="mt-0 font-weight-bold">About Us</h3>
+		<p> After my graduation I started working in bakery it grew my interest in bringing innovation in terms of design and creativity.</p>
+		<p>For setting the perfect celebration cake as per the theme which again went further with starting my own brand bake me away which is now known for the most variety of bakery products in town especially for cakes.</p>
+		<p>We serve finest quality cakes for all occasions, brownies , pudding, desserts that too egg free.</p>
+		<p>We are also currently present at two of the most renowned college campus in ahmedabad where will love to serve the students.</p>
+		<p>This entire brand runs completely on the concept of customers happiness first.</p>
+		<p>Our business today has grown completely on mouth publicity.</p>
+		<p>We are now planning to grow our business online by setting cloud kitchen in different cities in India.</p>
+		<p>I look forward to working with you!</p>
+		<p>Thank you for taking the time to visit my site!<br></p>
+		<p>-Courtney Shyam Joshi</p>
+	</div>
+	</div>
+</div>
+
+<!--collections-->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+<div class="container marketing min-vh-100 mt-5 mb-4" id="price">
+	<div class="text-center  pt-4 mt-3">
+			<h3> Our collection for you!</h3>
+	<button class="mt-3 mb-2 mr-5 ml-5" data-toggle="collapse" data-target="#im-gallery" >
+			<img id="btn-gal" src="images/more/gift/cupcake/gallery.png" alt=btn>
+	</button>
+	</div>
+
+	<div class="container collapse" id="im-gallery">
+		<div class="row">
+			<div class="row" id="col-gallery">
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/b1.jpg" alt="firstImg">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/38869707_414822262373420_8996144897979318272_n.jpg" alt="secondImg">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/cake19.jpg" alt="thirdImg">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/IMG-20190809-WA0001.jpg" alt="fourthImg">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/muf3.jpg" alt="fifthImg">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/pud1.jpg" alt="sixth">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/IMG-20190730-WA0010.jpg" alt="seventh">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/gift/gift7.jpg" alt="eith">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/gift/cupcake/IMG-20190808-WA0029.jpg" alt="nine">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/IMG-20190808-WA0032.jpg" alt="ten">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/others/39002827_416017542253892_5337646902903046144_n.jpg" alt="eleven">
+				</div>
+				<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+					<img src="images/more/IMG-20190730-WA0004.jpg" alt="twelve">
+				</div>
+			</div>
+			<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img id="image-gallery-image" class="img-responsive col-md-12" src="" alt="nothing">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+							</button>
+
+							<button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+ 							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- four columns of text below the carousel -->
+	<div class="row text-center mx-2 my-3" id="collection">
+		<div class="col-lg-3">
+			<img class="rounded-circle" src="images/cake4.jpg" alt="cakes"><br />
+			<button class="mx-2 my-2" data-toggle="collapse" data-target="#cakes">Cakes</button>
+			<div id="cakes" class="collapse">
+				<P><b>Rate/Kg</b></P>
+			<p>Chocolate Cakes starting at ₹750 </p>
+			<p>Vanilla & Fruit Cakes starting at ₹720</p>
+			<p>Fusion Cakes starting at ₹980</p>
+			<p>Additional cost for complexity of design, and special ingredients such as fondant, fruit, nuts, chocolate ganache, caramel sauce, etc.</p>
+			</div>
+			</div>
+
+		<div class="col-lg-3">
+			<img class="rounded-circle" src="images/muffin.jpg" alt="muff">
+			<br/>
+			<button class="mx-2 my-2" data-toggle="collapse" data-target="#muff">Muffins</button>
+			<div id="muff" class="collapse">
+				<P><b>Rate/Pc</b></P>
+				<p> Chocolate & Vanilla-₹35 </p>
+			<p> Orange/Red Velvet & Pistachio-₹45</p>
+			<p> Mawa Muffins-₹65</p>
+			<p> Lawa-₹75</p>
+			<p>Additional cost for extra add-ins such as fruit or nuts.</p>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<img class="rounded-circle" src="images/cheesecake.jpg" alt="chesese image">
+			<br />
+			<button class="mx-2 my-2" data-toggle="collapse" data-target="#cheese">CheeseCake</button>
+			<div id="cheese" class="collapse">
+				<P><b>Rate/Kg</b></P>
+				<p> Lemon CheeseCake & Mango CheeseCake ₹980</p>
+			<p>Raspberry CheeseCake/ Blueberry CheeseCake/ Nutella CheeseCake/ Caramel Chocolate CheeseCake & Hazelnut-Creme ₹1080</p>
+			<p>BerryBlast CheeseCake ₹1180</p>
+			<p>Additional cost for complexity of design, and special ingredients such as fondant, fruit, nuts, chocolate ganache, caramel sauce, etc.</p>
+			</div>
+		</div>
+
+	<div class="col-lg-3">
+		<img class="rounded-circle" src="images/pudding.jpg" alt="pud"><br />
+		<button class="mx-2 my-2" data-toggle="collapse" data-target="#pud">Puddings</button>
+		<div id="pud" class="collapse">
+			<P><b>Rate/Kg</b></P>
+			<p> Banana Cream & Strawberry ₹860 </p>
+		<p>Mocha Orange & Mango ₹920 </p>
+		<p>Walnut Chocolate/Red Velvet & Caramel ₹1040</p>
+		<p>Oreo/Lichee Almond ₹940</p>
+		<p>Tiramisu/Truffle & Red Velvet ₹960</p>
+		<p> Hazelnut Creme ₹1140</p>
+		<p>Additional cost for toppings</p>
+	</div>
+	</div>
+	</div>
+
+	<div class="row text-center py-5 my-5 mx-0" id="col-row">
+		<div class="col-lg-3">
+			<img class="rounded-circle" src="images/b.jpg " alt="brown image"><br />
+			<button class="mx-2 my-3" data-toggle="collapse" data-target="#browny">Brownies</button>
+			<div id="browny" class="collapse">
+				<P><b>Rate/Kg</b></P>
+				<p> Chocolate-Walnut/Almond ₹980</p>
+			<p>Hazelnut crunch ₹11080 </p>
+			<p>Additional charge for add-ons such as fruit, nuts, drizzle, etc.</p>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<img class="rounded-circle" src="images/cupcake-2250355__340.jpg" alt="cup"><br />
+			<button class="mx-2 my-3" data-toggle="collapse" data-target="#cup">CupCakes</button>
+			<div id="cup" class="collapse">
+				<P><b>Rate/Pc</b></P>
+				<p> Vanilla & Mousse ₹60</p>
+				<p>Truffle/Pina-chips & Strawberry ₹70</p>
+				<p>Oreo/Blueberry & Coffee Creme ₹80</p>
+				<p>Nutella/Orange/Pistachio/Raspberry & Red Velvet ₹90</p>
+				<p>Additional cost for toppings.</p>
+			</div>
+		</div>
+
+			<div class="col-lg-3">
+				<img class="rounded-circle" src="images/more/gift/gift4.jpg" alt="gift"><br />
+				<button class="mx-2 my-3" data-toggle="collapse" data-target="#choco">Chocolate Gifts</button>
+				<div id="choco" class="collapse">
+				<p> Basic chocolate gift price ₹150 </p>
+				<p>Additional cost on flavours/nut & packaging</p>
+				</div>
+			</div>
+
+		<div class="col-lg-3">
+				<img class="rounded-circle" src="images/hamperlook.jpg" alt="hamp"><br />
+			<button class="mx-2 my-3" data-toggle="collapse" data-target="#hamper">Hamper</button>
+			<div id="hamper" class="collapse">
+						<p> Basic hampers price ₹350 </p>
+						<p>Additional cost for add-ons/speciality & gift wrapper</p>
+			</div>
+					</div>
+	</div>
+</div>
+<!--contact us-->
+	<div class="container mt-5 mb-4" id="contact">
+		<div class="row min-vh-1001">
+			<div class="col-lg-7 mt-3">
+		<h3 class="text-center">Contact Us</h3><br />
+		<form id="rishita-form" action="../php/" method="post">
+			<div class="form-group">
+				<label for="name">Name <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+						<i class="fa fa-user" aria-hidden="true"></i></span>
+					</div>
+					<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+						<i class="fa fa-envelope" aria-hidden="true"></i></span>
+					</div>
+					<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="subject">subject</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+						<i class="fas fa-pencil-alt"></i></span>
+					</div>
+					<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="message">Message <span class="text-danger">*</span></label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+						<i class="fa fa-comment" aria-hidden="true"></i></span>
+					</div>
+					<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
+				</div>
+			</div>
+			<!-- reCAPTCHA -->
+			<div class="g-recaptcha" data-sitekey="6LfJCrMUAAAAAN8yg4SK350BnQgFp8Nujim92S8U"></div>
+
+			<button class="btn btn-success mt-2 mb-3" type="submit" ><i class="fa fa-paper-plane"></i> Send</button>
+			<button class="btn btn-warning mt-2 mb-3" type="reset" ><i class="fa fa-ban"></i> Reset</button>
+
+		</form>
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div>
+				</div>
+		</div>
+
+		<!--empty area for form error/success output-->
+			<div class="col-lg-4 mt-3 ml-3" id="store">
+				<h4>Store Location</h4>
+				<b>Location1:</b><br />
+				Bake-Me-Away, <br />
+				Azad Society Rd, Niyojan Nagar, Ambawadi,<br>
+				opposite azad society sub post office ,<br>
+				behind sahjanand complex, Ahmedabad, Gujarat 380015, <br>
+				India<br>
+
+				<b>Location 2:</b><br />
+				Bake-Me-Away, <br />
+				4 C P Chambers,<br />
+				opposite karnavati pagarkha bazaar,<br />
+				Navrang circle cross road,Navarangpura,Ahmedabad,Gujarat 380009<br />
+				India<br />
+				<br />
+				<b>Customer Service :</b><br />
+				<i class='fas fa-phone'></i> Call Us: +91 9081999933<br />
+				<i class='far'>&#xf0e0 </i> Email:
+				<a class="communicate" href="mailto:bakemeawayindia@gmail.com">bakemeawayindia@gmail.com</a><br />
+				<br />
+				<b>Open Hours :</b><br />
+				<p>Monday-Sunday:10.00AM- 11.00PM</p>
+				<p>Campus Location: 8:00AM - 10:00PM</p>
+
+				<div class="row ml-2 mb-3">
+					<b> Terms & Concerns</b><br />
+					<p>Please read this page before contacting me for an order. Thank you!</p>
+					<button data-toggle="collapse" data-target="#tandc" id="term">Read More</button>
+					<div id="tandc" class="collapse">
+					<p>Once you have contacted me, I will respond within 24-48 hours.</p>
+				<p><strong>DETAILS: </strong>Please include the date you would like to receive your order, what you would like to order, and quantity (if applicable).
+						  Think about flavors, frosting, fillings, toppings, decoration, theme, and any special requests or food allergies.
+					 If you aren't sure of these details, no worries-- we'll figure them out together.</p>
+				<p><strong>DELIVERY: </strong>As of now I am only delivering locally, in Ahmedabad.
+					Orders can be delivered to a halfway point, or picked up. </p>
+				<p><strong>PAYMENTS:</strong> Payments under ₹500 will be collected upon delivery or pick-up.
+				Payments over ₹500 require a 50% non-refundable deposit at least a week in advance, to cover the cost of ingredients and materials in the case of a cancellation.
+					The remainder of the total can be paid at the time of delivery or pick-up, or  the total amount can be paid for in advance.</p>
+				<p><strong>CAKES: </strong>All orders should be made at least 1-week in advance.Some exceptions can be made.
+				</p>
+					</div>
+			</div>
+</div>
+		</div>
+</div>
+
+<footer class="container page-footer font-small mt-1 pt-1" id="footer">
+	<div id="endfoot" class="fixed-action-btn smooth-scroll text-right mt-2 ml-2 mr-5">
+		<a href="#top-section" class="btn-floating btn-large pink">
+			<img class="rounded-circle" src="images/more/gift/cupcake%20bak.jpg" alt="top" id="arrow">
+		</a>
+	</div>
+				<div class="text-center mt-3 pt-1" id="socialSymbol">
+				<a class="ins-ic mt-5 mr-2 pt-2" href="https://www.instagram.com/bakemeawayindia/">
+					<i class="fab fa-instagram fa-lg white-text md-5 mr-3 fa-2x"> </i>
+				</a>
+				<a class="fb-ic mt-5 pt-2" href="https://www.facebook.com/bakemeawayindia/">
+					<i class="fab fa-facebook-f fa-lg white-text md-4 mr-3 fa-2x"> </i>
+				</a>
+				</div>
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-2">© 2019 Copyright:
+		<a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+	</div>
+	<!-- Copyright -->
+</footer>
+<!-- Footer -->
+</body>
+</html>

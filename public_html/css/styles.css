@@ -1,0 +1,268 @@
+body{
+	background-color: #cdf4f2 !important;
+	background-image:url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.35' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")!important;
+}
+#balloon img {
+	height:110px;
+	width: 110px;
+}
+
+.container.marketing{
+	background-color:palevioletred;
+}
+.container-fluid{
+background-color: slategray;
+}
+
+.container{
+	/*background-color:palevioletred;*/
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%236fd9e3' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+#top-section{
+	background-color: white;
+	border-color: #c70067;
+	border-width: thick;
+	border-style: ridge;
+	font-family: Comic Sans MS;
+	font-size: large;
+}
+#logo{
+	height:max-content;
+	border: 8px;
+	border-style: solid;
+	border-color: palevioletred;
+}
+.nav-link{
+	color: palevioletred;
+
+}
+.navbar-brand{
+	color: palevioletred;
+}
+.navbar-toggler{
+	color:palevioletred;
+	background: white;
+}
+#home{
+	background-color: white;
+	color: palevioletred;
+}
+.carousel-caption{
+	color: white
+}
+.carousel-inner{
+	height:550px;
+	width:900px;
+}
+.carousel-item img{
+	width:900px;
+	height: 505px;
+
+}
+.carousel-item{
+	max-width: 100%;
+	height: 100%;
+}
+.border-white{
+	border-style:solid;
+	border: 20px;
+	height:fit-content;
+	width:fit-content;
+}
+#col-gallery img{
+	height:200px;
+	width:200px;
+}
+#collection img{
+	width:140px;
+	height:140px;
+}
+#col-row img{
+	width:140px;
+	height:140px;
+}
+#about{
+	font-family:Bookman Old Style;
+	font-size:18px;
+	background-color:palevioletred;
+border-color: white;
+	border-width: thick;
+	border-style: ridge;
+}
+#about img{
+	height: 500px;
+	width: 500px;
+}
+.media img{
+	height:410px;
+	width:350px;
+}
+.media-body{
+	color:white;
+}
+#price{
+	font-family:Bookman Old Style;
+	background-color: white ;
+	color:palevioletred;
+	border-color: #c70067;
+	border-width: thick;
+	border-style: ridge;
+}
+#im-gallery{
+	font-family:Bookman Old Style;
+	background-color: white;color:palevioletred;
+}
+#collection{
+	font-family:Bookman Old Style;
+	color:palevioletred;
+}
+#contact{
+	background-color:palevioletred;
+	color:white;
+	font-size:15px;
+	font-family: Bookman Old Style;
+	border-color: white;
+	border-width: thick;
+	border-style: ridge;
+
+}
+#store{
+	font-family: Bookman Old Style;
+	font-size:15px;
+}
+#endfoot {
+	color: palevioletred;
+	background-color: white;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%236fd9e3' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.footer-copyright{
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%236fd9e3' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#car-text{
+	font-family: "Bookman Old Style";
+	font-size: medium;
+}
+@media screen and (max-width: 1200px) {
+#balloon { display: block; }
+}
+
+@media screen and (min-width: 710px ) and (max-width: 1070px) {
+	#fball, #sball, #tball{ display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+	#fball, #sball, #tball, #forball, #fivebal{ display: none; }   /* hide it elsewhere */
+}
+@media screen and (max-width: 495px) {
+	#balloon{ display: none; }   /* hide it elsewhere */
+}
+
+#arrow{
+height: 85px;
+	width: 80px;
+}
+#nav1 {
+	text-align: center;
+	color: turquoise;
+	size: 10px;
+	width: max-content;
+}
+#btn-gal{
+	height: 50px;
+	width: 50px;
+}
+#socialSymbol{
+	font-size:15px;
+	color: palevioletred;
+
+}
+.carousel-item{
+	border-color: #c70067;
+	border-width: 16px;
+	border-style: groove;
+}
+#footer{
+	background-color: white;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%236fd9e3' fill-opacity='0.39' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+color: palevioletred;
+	border-color: #c70067;
+	border-width: thick;
+	border-style: ridge;
+
+}
+#term{
+	background-color: white;
+	color: palevioletred;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+	display: block;
+}
+#hamburger{
+	width:40px ;
+	height:40px;
+}
+
+.thumb{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background-color:palevioletred;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Bookman Old Style";
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+button:hover{
+	background-color:#ef027d;
+	color: white;
+}
+
+	img.vert-move {
+		-webkit-animation: mover 1s infinite alternate;
+		animation: mover 1s infinite alternate;
+	}
+
+	img.vert-move {
+		-webkit-animation: mover 1s infinite alternate;
+		animation: mover 1s infinite alternate;
+	}
+
+	@-webkit-keyframes mover {
+		0% {
+			transform: translateY(0);
+		}
+		100% {
+			transform: translateY(-10px);
+		}
+	}
+	@keyframes mover {
+		0% {
+			transform: translateY(0);
+		}
+		100% {
+			transform: translateY(-10px);
+		}
+	}
+
+
