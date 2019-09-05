@@ -30,3 +30,22 @@ We'll be building PWP in a file named index.php inside of /public_html. Please n
 
 Your Milestone 2a passes at a Tier III
 
+## Milestone 3 and Final Feedback
+
+You did a lot of work and an awesome job!
+
+There are a few html errors:
+https://bootcamp-coders.cnm.edu/~rhariyani/PWP-Bake-Me-Away/public_html/
+
+There is also some content not wrapped in html tags.
+
+The contact form validates the inputs and sends an email.
+
+Your site is mobile responsive-ish.  
+Add this to the head and it will fix most of the mobile issues:
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+Overall great job!
+
+Milestone 3 Grade Tier 3
+Final Grade Tier 3
